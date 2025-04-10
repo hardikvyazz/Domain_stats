@@ -98,6 +98,12 @@ const EmailStats: React.FC = () => {
           Search
         </button>
       </div>
+      <h2 className="text-xl font-semibold mb-4">
+      🕵 Currently viewing stats for: 
+        <span className="ml-1 px-2 py-1 bg-blue-100 text-blue-800 rounded-xl shadow-sm font-bold">
+          {currentEmail}
+        </span>
+      </h2>
 
       {/* Date Range Filter */}
       {emailData.length > 0 && (
