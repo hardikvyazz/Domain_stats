@@ -1,4 +1,4 @@
-import EmailStats from './components/EmailStats.';
+import EmailStats from './components/EmailStats';
 
 export default function Home() {
   return (
