@@ -80,7 +80,7 @@ const EmailStats: React.FC = () => {
 
   return (
     <div className="p-4 overflow-x-auto">
-      <h2 className="text-2xl font-bold mb-4">📅 Domain Stats Per Email</h2>
+      <h2 className="text-2xl font-bold mb-4">🗓️ Domain Stats Per Email</h2>
 
       {/* Email Input */}
       <div className="flex flex-col sm:flex-row items-center gap-2 mb-4">
