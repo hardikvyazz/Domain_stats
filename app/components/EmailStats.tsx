@@ -14,7 +14,7 @@ const EmailStats: React.FC = () => {
   const [startDate, setStartDate] = useState<string>('');
   const [endDate, setEndDate] = useState<string>('');
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 5;
+  const itemsPerPage = 12;
 
   const fetchData = async (email: string) => {
     try {
